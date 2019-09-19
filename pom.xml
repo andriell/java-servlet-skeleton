@@ -18,6 +18,8 @@
         <hb.manager>4.2.5.Final</hb.manager>
         <spring.test>3.2.4.RELEASE</spring.test>
         <junit.version>4.11</junit.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <dependencies>
