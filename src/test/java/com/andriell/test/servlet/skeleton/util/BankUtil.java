@@ -1,4 +1,4 @@
-package com.andriell.servlet.skeleton.test.util;
+package com.andriell.test.servlet.skeleton.util;
 
 import com.andriell.servlet.skeleton.entity.Bank;
 

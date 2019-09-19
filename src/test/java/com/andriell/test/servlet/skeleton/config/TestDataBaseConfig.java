@@ -1,4 +1,4 @@
-package com.andriell.servlet.skeleton.test.config;
+package com.andriell.test.servlet.skeleton.config;
 
 import org.apache.log4j.ConsoleAppender;
 import org.apache.log4j.Level;
@@ -18,7 +18,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("com.andriell.servlet.skeleton.test")
+@ComponentScan("com.andriell.servlet.skeleton")
 public class TestDataBaseConfig {
 
     private static final String PROPERTY_NAME_DATABASE_DRIVER = "com.mysql.jdbc.Driver";

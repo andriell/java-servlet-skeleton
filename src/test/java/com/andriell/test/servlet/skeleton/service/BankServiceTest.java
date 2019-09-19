@@ -1,8 +1,8 @@
-package com.andriell.servlet.skeleton.test.service;
+package com.andriell.test.servlet.skeleton.service;
 
 import com.andriell.servlet.skeleton.service.BankService;
-import com.andriell.servlet.skeleton.test.config.TestDataBaseConfig;
-import com.andriell.servlet.skeleton.test.util.BankUtil;
+import com.andriell.test.servlet.skeleton.config.TestDataBaseConfig;
+import com.andriell.test.servlet.skeleton.util.BankUtil;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
