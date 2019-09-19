@@ -47,6 +47,14 @@
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
             <version>${spring.data}</version>
+            <exclusions>
+                <!-- эта зависимость больше не нужна в spring-webmvc. Поэтому ее нужно исключить здесь иначе там будет ошибка
+                Caused by: java.lang.IncompatibleClassChangeError: class org.springframework.core.type.classreading.ClassMetadataReadingVisitor has interface org.springframework.asm.ClassVisitor as super class -->
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-asm</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
