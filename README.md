@@ -4,6 +4,7 @@ java servlet skeleton
 ## docker
 
     docker-compose up -d - запуск в фоновом режиме по сценарию из файла docker-compose.yml в текущей папке
+    docker start spring_mysql - запустить контейнер повторно
 
 ## flyway
 
