@@ -29,7 +29,7 @@ public class Client {
     private String email;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
-    @JoinColumn(name = "bank_id", nullable = false)
+    @JoinColumn(name = "bank_id", nullable = true)
     private Bank bank;
 
     public Client(String firstName, String lastName, String phoneNumber,
